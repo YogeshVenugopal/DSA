@@ -87,18 +87,6 @@ DSA/
 
 ---
 
-## 🗓️ Daily Practice Tracker
-
-| Date | Problem | Topic | Language |
-|------|--------|------|----------|
-| 2026-02-17 | Two Sum | Arrays | Java |
-| 2026-02-18 | Reverse String | Strings | Python |
-| 2026-02-19 | Binary Search | Searching | Java |
-
-👉 Update this table daily to track consistency.
-
----
-
 ## 🚀 How to Use
 
 1️⃣ Choose a language folder  
@@ -141,7 +129,7 @@ If you find this repository helpful, consider giving it a ⭐ to support my lear
 
 **Yogesh**
 
-Aspiring Software Developer | MERN Stack Developer | Cybersecurity Enthusiast  
+Aspiring Software Developer | MERN Stack Developer 
 
 ---
 
@@ -154,10 +142,3 @@ Aspiring Software Developer | MERN Stack Developer | Cybersecurity Enthusiast
 - Add LeetCode solutions
 - Add notes for revision
 
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YogeshVenugopal&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YogeshVenugopal&layout=compact&theme=tokyonight)
