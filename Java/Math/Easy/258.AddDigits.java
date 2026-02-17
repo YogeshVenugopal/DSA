@@ -10,7 +10,7 @@ class Solution {
                 sum += num % 10;
                 num /= 10;
             }
-            // Set the number as the sum value
+            // Set the sum value as current number
             // Case - 1: if the number is still two digit then it goes once again
             // Case - 2: if the number is comes to single digit then it exit from the loop
             num = sum;
