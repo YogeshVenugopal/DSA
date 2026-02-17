@@ -1,7 +1,6 @@
 
 class Solution {
     public int addDigits(int num) {
-
         // Create a loop and it's run until the number become single digit
         while(num >= 10){
             
