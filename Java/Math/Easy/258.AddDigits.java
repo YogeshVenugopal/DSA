@@ -15,7 +15,7 @@ class Solution {
             // Case - 2: if the number is comes to single digit then it exit from the loop
             num = sum;
         }
-        // return the answer
+        // return the single digit value 
         return num;
     }
 }
