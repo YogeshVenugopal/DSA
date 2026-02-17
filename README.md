@@ -41,26 +41,27 @@ I continuously update this repository as I learn new concepts and solve more pro
 
 ## 📂 Repository Structure
 
+```
 DSA/
 │
 ├── Java/
-│ ├── Arrays/
-│ ├── Strings/
-│ ├── LinkedList/
-│ ├── Trees/
-│ ├── Graphs/
-│ ├── Sorting/
-│ └── Searching/
+│   ├── Arrays/
+│   ├── Strings/
+│   ├── LinkedList/
+│   ├── Trees/
+│   ├── Graphs/
+│   ├── Sorting/
+│   └── Searching/
 │
 ├── Python/
-│ ├── Arrays/
-│ ├── Strings/
-│ ├── LinkedList/
-│ ├── Trees/
-│ ├── Graphs/
-│ ├── Sorting/
-│ └── Searching/
-
+│   ├── Arrays/
+│   ├── Strings/
+│   ├── LinkedList/
+│   ├── Trees/
+│   ├── Graphs/
+│   ├── Sorting/
+│   └── Searching/
+```
 
 ---
 
@@ -160,24 +161,3 @@ Aspiring Software Developer | MERN Stack Developer | Cybersecurity Enthusiast
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YogeshVenugopal&show_icons=true&theme=tokyonight)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YogeshVenugopal&layout=compact&theme=tokyonight)
-
-
-📦 Folder Creation Commands
-
-Run this inside repo 👇
-
-mkdir -p Java/{Arrays,Strings,LinkedList,Trees,Graphs,Sorting,Searching}
-mkdir -p Python/{Arrays,Strings,LinkedList,Trees,Graphs,Sorting,Searching}
-
-🏷️ GitHub Topics
-
-Add in repo settings:
-
-dsa
-data-structures
-algorithms
-java
-python
-interview-prep
-problem-solving
-coding-practice
