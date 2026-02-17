@@ -27,3 +27,4 @@ Each time I commit a new solution, the table below will be updated automatically
 
 Track consistency and maintain a clear record of solved problems.
 
+| 4 | 258.AddDigits.java | Runtime : 1ms /| Beats : 97.66% with time complexity - O(log n) and space complexity - O(1)   |
