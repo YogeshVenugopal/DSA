@@ -8,6 +8,7 @@ This file tracks my progress of solving Data Structures and Algorithms problems 
 
 | S.No | Problem | Performance |
 |------|--------|------------|
+| 5 | 371.SumOfTwoIntegers.java | Runtime : 0ms \| Beats : 100% with time complexity - O(1) and space complexity - O(1)   |
 | 1 | 1.TwoSum.java | Runtime : 2ms \| Beats : 99.18% with time complexity - O(n) and space complexity - O(n)   |
 | 2 | 15.ThreeSum.java | Runtime : 33ms \| Beats : 71.42% with time complexity - O(n^2) and space complexity - O(1)   |
 | 3 | 12.IntegerToRoman.java | Runtime : 3ms \| Beats : 99.55% with time complexity - O(1) and space complexity - O(1)   |
