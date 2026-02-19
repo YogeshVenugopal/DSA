@@ -1,7 +1,6 @@
 # ☕ Java DSA Progress Tracker
 
 This file tracks my progress of solving Data Structures and Algorithms problems using Java.
-| 7 | 14.LongestCommonPrefix.java | Revert "Runtime : 1ms - Beats : 65.69% with the time complexity - O(m x n) and space complexity - O(1)"  This reverts commit fe9ccc4d773ad252baddd239de7c56c1d5bab2ce.   |
 
 ---
 
