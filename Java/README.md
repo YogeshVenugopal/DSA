@@ -1,7 +1,6 @@
 # ☕ Java DSA Progress Tracker
 
 This file tracks my progress of solving Data Structures and Algorithms problems using Java.
-| 7 | 14.LongestCommonPrefix.java | Runtime : 1ms - Beats : 65.69% with the time complexity - O(m x n) and space complexity - O(1)   |
 
 ---
 
