@@ -133,12 +133,3 @@ Aspiring Software Developer | MERN Stack Developer
 
 ---
 
-## 📌 Future Improvements
-
-- Add more problems
-- Add optimized solutions
-- Add problem explanations
-- Add time & space complexity
-- Add LeetCode solutions
-- Add notes for revision
-
