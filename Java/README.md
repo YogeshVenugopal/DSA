@@ -8,6 +8,7 @@ This file tracks my progress of solving Data Structures and Algorithms problems 
 
 | S.No | Problem | Performance |
 |------|--------|------------|
+| 10 | 20.ValidParentheses.java | Runtime : 3ms - Beats : 87.54% with the time complexity - O(n) and space complexity - O(n)   |
 | 9 | 2.AddTwoNumbers.java | Runtime : 1ms - Beats : 99.77% with time complexity - O(max(m,n)) and space complexity - O(max(m,n))   |
 | 8 | 5.LongestPalindromeSubstring.java | Runtime : 2569ms - Beats : 5.00% with time complexity -O(N^3) and space complexity -O(N)   |
 | 7 | 14.LongestCommonPrefix.java | Runtime : 1ms - Beats : 65.69% with the time complexity - O(m x n) and space complexity - O(1)   |
