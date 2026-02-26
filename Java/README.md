@@ -8,6 +8,8 @@ This file tracks my progress of solving Data Structures and Algorithms problems 
 
 | S.No | Problem | Performance |
 |------|--------|------------|
+| 13 | 7.ReverseInteger.java | Runtime : 1ms \| Beats : 99.84% with time complexity - O(log n) and space complexity - O(1) |
+| 12 | 6.ZigZagConversation.java | Runtime : 4ms \| Beats : 86.00% with the time complexity - O(n) and space complexity - O(n) |
 | 11 | 3.LongestSubstringWithoutRepeatingCharacters.java | Runtime : 6ms - Beats : 69.02% with the time complexity - O(n) and space complexity - O(min(n,charset))   |
 | 10 | 20.ValidParentheses.java | Runtime : 3ms - Beats : 87.54% with the time complexity - O(n) and space complexity - O(n)   |
 | 9 | 2.AddTwoNumbers.java | Runtime : 1ms - Beats : 99.77% with time complexity - O(max(m,n)) and space complexity - O(max(m,n))   |
