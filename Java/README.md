@@ -1,6 +1,7 @@
 # ☕ Java DSA Progress Tracker
 
 This file tracks my progress of solving Data Structures and Algorithms problems using Java.
+| 14 | 66.PlusOne.java | Runtime : 0ms - Beats : 100% with time complexity - O(n) and space complexity - O(1)   |
 
 ---
 
