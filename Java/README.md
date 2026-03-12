@@ -1,7 +1,7 @@
 # ☕ Java DSA Progress Tracker
 
 This file tracks my progress of solving Data Structures and Algorithms problems using Java.
-| 14 | 66.PlusOne.java | Runtime : 0ms - Beats : 100% with time complexity - O(n) and space complexity - O(1)   |
+
 
 ---
 
@@ -9,6 +9,8 @@ This file tracks my progress of solving Data Structures and Algorithms problems 
 
 | S.No | Problem | Performance |
 |------|--------|------------|
+| 15 | 1768.MergeStringAlternative.java | Runtime : 1ms - Beats 95.91% with time complexity - O(m+n) and space complexity -  O(m+n)   |
+| 14 | 66.PlusOne.java | Runtime : 0ms - Beats : 100% with time complexity - O(n) and space complexity - O(1)   |
 | 13 | 7.ReverseInteger.java | Runtime : 1ms \| Beats : 99.84% with time complexity - O(log n) and space complexity - O(1) |
 | 12 | 6.ZigZagConversation.java | Runtime : 4ms \| Beats : 86.00% with the time complexity - O(n) and space complexity - O(n) |
 | 11 | 3.LongestSubstringWithoutRepeatingCharacters.java | Runtime : 6ms - Beats : 69.02% with the time complexity - O(n) and space complexity - O(min(n,charset))   |
