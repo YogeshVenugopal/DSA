@@ -1,41 +1,41 @@
 # 📚 Data Structures and Algorithms (DSA)
 
-![Repo Size](https://img.shields.io/github/repo-size/YogeshVenugopal/DSA)
-![Stars](https://img.shields.io/github/stars/YogeshVenugopal/DSA?style=social)
-![Forks](https://img.shields.io/github/forks/YogeshVenugopal/DSA?style=social)
-![Issues](https://img.shields.io/github/issues/YogeshVenugopal/DSA)
-![Last Commit](https://img.shields.io/github/last-commit/YogeshVenugopal/DSA)
 
-![Java](https://img.shields.io/badge/Language-Java-red)
-![Python](https://img.shields.io/badge/Language-Python-blue)
-![DSA](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-green)
+
+
+\
+
+
+\
 
 ---
 
 ## 🧠 About This Repository
 
-This repository documents my journey of learning and practicing **Data Structures and Algorithms** using **Java and Python**.
+This repository documents my journey of mastering **Data Structures and Algorithms** using **Java and Python**.
 
-Problems are organized topic-wise to build strong problem-solving skills and prepare for coding interviews.
+Problems are structured **topic-wise → pattern-wise → problem-wise**, which helps in:
 
-I continuously update this repository as I learn new concepts and solve more problems.
+* Building strong problem-solving skills
+* Understanding patterns deeply
+* Preparing for coding interviews effectively
 
 ---
 
 ## 🎯 Goals
 
-- 📈 Improve problem-solving skills
-- 🧩 Master core DSA concepts
-- 🧹 Write clean and readable code
-- 🧠 Prepare for technical interviews
-- 🚀 Track learning progress
+* 📈 Improve problem-solving skills
+* 🧩 Master core DSA concepts
+* 🧹 Write clean, optimized code
+* 🧠 Crack technical interviews
+* 🚀 Track learning progress
 
 ---
 
 ## 🛠️ Languages Used
 
-- ☕ Java
-- 🐍 Python
+* ☕ Java
+* 🐍 Python
 
 ---
 
@@ -45,75 +45,351 @@ I continuously update this repository as I learn new concepts and solve more pro
 DSA/
 │
 ├── Java/
-│   ├── Arrays/
-│   ├── Strings/
-│   ├── LinkedList/
-│   ├── Trees/
-│   ├── Graphs/
-│   ├── Sorting/
-│   └── Searching/
+│
+│   ├── 01_Arrays
+│   │   ├── 01_Basics
+│   │   │   ├── Traversal
+│   │   │   ├── Prefix_Sum
+│   │   │   ├── Difference_Array
+│   │   │   └── Kadane
+│   │   │
+│   │   ├── 02_Two_Pointers
+│   │   │   ├── Pair_Problems
+│   │   │   ├── Remove_Duplicates
+│   │   │   ├── Container_Problems
+│   │   │   └── Sorted_Array
+│   │   │
+│   │   ├── 03_Sliding_Window
+│   │   │   ├── Fixed_Window
+│   │   │   ├── Variable_Window
+│   │   │   ├── Longest_Substring
+│   │   │   └── Min_Window
+│   │   │
+│   │   ├── 04_Binary_Search
+│   │   │   ├── Standard
+│   │   │   ├── Lower_Upper_Bound
+│   │   │   ├── Rotated_Array
+│   │   │   └── Binary_Search_On_Answer
+│   │   │
+│   │   └── 05_Advanced
+│   │       ├── Dutch_Flag
+│   │       ├── Merge_Intervals
+│   │       ├── Subarray
+│   │       └── Greedy_Array
+│   │
+│   ├── 02_Strings
+│   │   ├── 01_Basics
+│   │   │   ├── Reverse
+│   │   │   ├── Palindrome
+│   │   │   └── Frequency
+│   │   │
+│   │   ├── 02_Hashing
+│   │   │   ├── Anagram
+│   │   │   ├── Character_Count
+│   │   │   └── Pattern
+│   │   │
+│   │   ├── 03_Sliding_Window
+│   │   │   ├── Longest_Substring
+│   │   │   └── Min_Window
+│   │   │
+│   │   ├── 04_Pattern_Matching
+│   │   │   ├── Rabin_Karp
+│   │   │   ├── KMP
+│   │   │   └── Z_Algorithm
+│   │   │
+│   │   └── 05_Advanced
+│   │       ├── Trie
+│   │       ├── Rolling_Hash
+│   │       └── String_DP
+│   │
+│   ├── 03_Hashing
+│   │   ├── 01_Basics
+│   │   │   ├── Frequency_Count
+│   │   │   ├── Duplicate
+│   │   │   └── Pair_Sum
+│   │   │
+│   │   ├── 02_Prefix_Hashing
+│   │   │   ├── Subarray_Sum_K
+│   │   │   └── Longest_Subarray
+│   │   │
+│   │   └── 03_Advanced
+│   │       ├── Rolling_Hash
+│   │       └── Custom_Hash
+│   │
+│   ├── 04_LinkedList
+│   │   ├── 01_Basics
+│   │   │   ├── Insert
+│   │   │   ├── Delete
+│   │   │   └── Reverse
+│   │   │
+│   │   ├── 02_Fast_Slow
+│   │   │   ├── Detect_Cycle
+│   │   │   ├── Middle
+│   │   │   └── Remove_Cycle
+│   │   │
+│   │   ├── 03_Advanced
+│   │   │   ├── Reverse_K_Group
+│   │   │   ├── Merge_List
+│   │   │   └── Random_Pointer
+│   │   │
+│   │   └── 04_Doubly_Circular
+│   │
+│   ├── 05_Stack
+│   │   ├── 01_Basics
+│   │   │   ├── Valid_Parentheses
+│   │   │   └── Min_Stack
+│   │   │
+│   │   ├── 02_Monotonic
+│   │   │   ├── Next_Greater
+│   │   │   ├── Largest_Rectangle
+│   │   │   └── Stock_Span
+│   │   │
+│   │   └── 03_Expression
+│   │       ├── Infix_To_Postfix
+│   │       └── Evaluate
+│   │
+│   ├── 06_Queue
+│   │   ├── 01_Basics
+│   │   │   ├── Circular
+│   │   │   └── Using_Stack
+│   │   │
+│   │   ├── 02_Monotonic
+│   │   │   └── Sliding_Window_Max
+│   │   │
+│   │   └── 03_BFS
+│   │
+│   ├── 07_Trees
+│   │   ├── 01_Binary_Tree
+│   │   │   └── Traversals
+│   │   │
+│   │   ├── 02_DFS
+│   │   ├── 03_BST
+│   │   ├── 04_Techniques
+│   │   └── 05_Advanced
+│   │
+│   ├── 08_Heap
+│   │   ├── 01_Basics
+│   │   ├── 02_Top_K
+│   │   └── 03_Advanced
+│   │
+│   ├── 09_Graphs
+│   │   ├── 01_Basics
+│   │   ├── 02_Shortest_Path
+│   │   ├── 03_Topological
+│   │   ├── 04_DSU
+│   │   └── 05_Advanced
+│   │
+│   ├── 10_Dynamic_Programming
+│   │   ├── 01_1D
+│   │   ├── 02_2D
+│   │   ├── 03_Knapsack
+│   │   ├── 04_LCS
+│   │   └── 05_Advanced
+│   │
+│   ├── 11_Greedy
+│   │   ├── Interval
+│   │   ├── Activity
+│   │   ├── Job_Scheduling
+│   │   └── Jump_Game
+│   │
+│   └── 12_Backtracking
+│       ├── Subsets
+│       ├── Permutations
+│       ├── Combination_Sum
+│       └── N_Queens
 │
 ├── Python/
-│   ├── Arrays/
-│   ├── Strings/
-│   ├── LinkedList/
-│   ├── Trees/
-│   ├── Graphs/
-│   ├── Sorting/
-│   └── Searching/
+│
+│   ├── 01_Arrays
+│   │   ├── 01_Basics
+│   │   │   ├── Traversal
+│   │   │   ├── Prefix_Sum
+│   │   │   ├── Difference_Array
+│   │   │   └── Kadane
+│   │   │
+│   │   ├── 02_Two_Pointers
+│   │   │   ├── Pair_Problems
+│   │   │   ├── Remove_Duplicates
+│   │   │   ├── Container_Problems
+│   │   │   └── Sorted_Array
+│   │   │
+│   │   ├── 03_Sliding_Window
+│   │   │   ├── Fixed_Window
+│   │   │   ├── Variable_Window
+│   │   │   ├── Longest_Substring
+│   │   │   └── Min_Window
+│   │   │
+│   │   ├── 04_Binary_Search
+│   │   │   ├── Standard
+│   │   │   ├── Lower_Upper_Bound
+│   │   │   ├── Rotated_Array
+│   │   │   └── Binary_Search_On_Answer
+│   │   │
+│   │   └── 05_Advanced
+│   │       ├── Dutch_Flag
+│   │       ├── Merge_Intervals
+│   │       ├── Subarray
+│   │       └── Greedy_Array
+│   │
+│   ├── 02_Strings
+│   │   ├── 01_Basics
+│   │   │   ├── Reverse
+│   │   │   ├── Palindrome
+│   │   │   └── Frequency
+│   │   │
+│   │   ├── 02_Hashing
+│   │   │   ├── Anagram
+│   │   │   ├── Character_Count
+│   │   │   └── Pattern
+│   │   │
+│   │   ├── 03_Sliding_Window
+│   │   │   ├── Longest_Substring
+│   │   │   └── Min_Window
+│   │   │
+│   │   ├── 04_Pattern_Matching
+│   │   │   ├── Rabin_Karp
+│   │   │   ├── KMP
+│   │   │   └── Z_Algorithm
+│   │   │
+│   │   └── 05_Advanced
+│   │       ├── Trie
+│   │       ├── Rolling_Hash
+│   │       └── String_DP
+│   │
+│   ├── 03_Hashing
+│   │   ├── 01_Basics
+│   │   │   ├── Frequency_Count
+│   │   │   ├── Duplicate
+│   │   │   └── Pair_Sum
+│   │   │
+│   │   ├── 02_Prefix_Hashing
+│   │   │   ├── Subarray_Sum_K
+│   │   │   └── Longest_Subarray
+│   │   │
+│   │   └── 03_Advanced
+│   │       ├── Rolling_Hash
+│   │       └── Custom_Hash
+│   │
+│   ├── 04_LinkedList
+│   │   ├── 01_Basics
+│   │   │   ├── Insert
+│   │   │   ├── Delete
+│   │   │   └── Reverse
+│   │   │
+│   │   ├── 02_Fast_Slow
+│   │   │   ├── Detect_Cycle
+│   │   │   ├── Middle
+│   │   │   └── Remove_Cycle
+│   │   │
+│   │   ├── 03_Advanced
+│   │   │   ├── Reverse_K_Group
+│   │   │   ├── Merge_List
+│   │   │   └── Random_Pointer
+│   │   │
+│   │   └── 04_Doubly_Circular
+│   │
+│   ├── 05_Stack
+│   │   ├── 01_Basics
+│   │   │   ├── Valid_Parentheses
+│   │   │   └── Min_Stack
+│   │   │
+│   │   ├── 02_Monotonic
+│   │   │   ├── Next_Greater
+│   │   │   ├── Largest_Rectangle
+│   │   │   └── Stock_Span
+│   │   │
+│   │   └── 03_Expression
+│   │       ├── Infix_To_Postfix
+│   │       └── Evaluate
+│   │
+│   ├── 06_Queue
+│   │   ├── 01_Basics
+│   │   │   ├── Circular
+│   │   │   └── Using_Stack
+│   │   │
+│   │   ├── 02_Monotonic
+│   │   │   └── Sliding_Window_Max
+│   │   │
+│   │   └── 03_BFS
+│   │
+│   ├── 07_Trees
+│   │   ├── 01_Binary_Tree
+│   │   │   └── Traversals
+│   │   │
+│   │   ├── 02_DFS
+│   │   ├── 03_BST
+│   │   ├── 04_Techniques
+│   │   └── 05_Advanced
+│   │
+│   ├── 08_Heap
+│   │   ├── 01_Basics
+│   │   ├── 02_Top_K
+│   │   └── 03_Advanced
+│   │
+│   ├── 09_Graphs
+│   │   ├── 01_Basics
+│   │   ├── 02_Shortest_Path
+│   │   ├── 03_Topological
+│   │   ├── 04_DSU
+│   │   └── 05_Advanced
+│   │
+│   ├── 10_Dynamic_Programming
+│   │   ├── 01_1D
+│   │   ├── 02_2D
+│   │   ├── 03_Knapsack
+│   │   ├── 04_LCS
+│   │   └── 05_Advanced
+│   │
+│   ├── 11_Greedy
+│   │   ├── Interval
+│   │   ├── Activity
+│   │   ├── Job_Scheduling
+│   │   └── Jump_Game
+│   │
+│   └── 12_Backtracking
+│       ├── Subsets
+│       ├── Permutations
+│       ├── Combination_Sum
+│       └── N_Queens
 ```
-
----
-
-## 📊 Progress Tracker
-
-### 🟢 Topics Covered
-
-- [ ] Arrays
-- [ ] Strings
-- [ ] Linked List
-- [ ] Stack
-- [ ] Queue
-- [ ] Trees
-- [ ] Binary Search Tree
-- [ ] Heap
-- [ ] Graphs
-- [ ] Recursion
-- [ ] Backtracking
-- [ ] Sorting Algorithms
-- [ ] Searching Algorithms
-- [ ] Dynamic Programming
-- [ ] Greedy Algorithms
-
----
-
-## 🚀 How to Use
-
-1️⃣ Choose a language folder  
-2️⃣ Navigate to topic folder  
-3️⃣ Explore problem solutions  
-4️⃣ Understand logic and implementation  
 
 ---
 
 ## 📈 Learning Strategy
 
-- Solve problems topic-wise
-- Focus on understanding concepts
-- Optimize solutions
-- Maintain consistency
-- Review previous problems regularly
+* 📌 Solve problems **topic-wise**
+* 🔁 Revise patterns regularly
+* ⚡ Focus on **optimal solutions**
+* 🧠 Understand *why*, not just *how*
+* 🧩 Identify patterns across problems
+
+---
+
+## 📊 Progress Tracker
+
+* [ ] Arrays
+* [ ] Strings
+* [ ] Hashing
+* [ ] Linked List
+* [ ] Stack
+* [ ] Queue
+* [ ] Trees
+* [ ] Heap
+* [ ] Graphs
+* [ ] Dynamic Programming
+* [ ] Greedy
+* [ ] Backtracking
 
 ---
 
 ## 🤝 Contribution
 
-This is a personal learning repository, but suggestions and improvements are welcome.
+This is a personal learning repository, but suggestions are welcome.
 
-If you’d like to contribute:
+Steps:
 
 1. Fork the repository
-2. Create a new branch
+2. Create a branch
 3. Add improvements
 4. Submit a pull request
 
@@ -121,15 +397,11 @@ If you’d like to contribute:
 
 ## ⭐ Support
 
-If you find this repository helpful, consider giving it a ⭐ to support my learning journey.
+If you find this helpful, consider giving it a ⭐
 
 ---
 
 ## 👨‍💻 Author
 
 **Yogesh**
-
-Aspiring Software Developer | MERN Stack Developer 
-
----
-
+Aspiring Software Developer | MERN Stack Developer
