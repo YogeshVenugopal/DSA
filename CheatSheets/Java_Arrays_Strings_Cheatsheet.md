@@ -1,6 +1,7 @@
 # Java Arrays & Strings Cheatsheet
 
 ## Table of Contents
+
 1. [Arrays Basics](#arrays-basics)
 2. [String Basics](#string-basics)
 3. [Common Array Operations](#common-array-operations)
@@ -683,130 +684,162 @@ public static List<Integer> getDiagonal(int[][] matrix) {
 ### 🟢 Easy Problems (Master First)
 
 - [ ] **#1 Two Sum** | HashMap/Brute Force | `O(n)` time
+
   - Topics: Hash Map, Two Pointers
   - Variants: Sorted array, return indices
 
 - [ ] **#7 Reverse Integer** | String manipulation | `O(1)` time
+
   - Topics: Math, String conversion
   - Watch for: Integer overflow
 
 - [ ] **#9 Palindrome Number** | String/Math approach | `O(1)` time
+
   - Topics: String, Palindrome, Number manipulation
   - Variants: Check if string palindrome
 
 - [ ] **#13 Roman to Integer** | HashMap | `O(n)` time
+
   - Topics: Hash Map, String, Math
   - Key insight: Subtractive notation
 
 - [ ] **#14 Longest Common Prefix** | String comparison | `O(n*m)` time
+
   - Topics: String, Array
   - Approaches: Horizontal scan, vertical scan, binary search
 
 - [ ] **#20 Valid Parentheses** | Stack | `O(n)` time
+
   - Topics: Stack, String matching
   - Edge cases: Empty string, mismatched pairs
 
 - [ ] **#26 Remove Duplicates from Sorted Array** | Two Pointers | `O(n)` time
+
   - Topics: Two Pointers, In-place modification
   - Important: Return length, array modified
 
 - [ ] **#27 Remove Element** | Two Pointers | `O(n)` time
+
   - Topics: Two Pointers, Array
   - Similar to #26
 
 - [ ] **#35 Search Insert Position** | Binary Search | `O(log n)` time
+
   - Topics: Binary Search, Array
   - Key: Find insertion point for missing element
 
 - [ ] **#58 Length of Last Word** | String manipulation | `O(n)` time
+
   - Topics: String, Simple iteration
   - Edge cases: Trailing spaces
 
 - [ ] **#66 Plus One** | Array manipulation | `O(n)` time
+
   - Topics: Array, Math
   - Watch for: Carry over
 
 - [ ] **#67 Add Binary** | String manipulation | `O(n)` time
+
   - Topics: String, Math, Bit operations
   - Variants: Add decimal numbers
 
 - [ ] **#88 Merge Sorted Array** | Two Pointers | `O(n+m)` time
+
   - Topics: Two Pointers, Array
   - Key: Merge in-place from end
 
 - [ ] **#100 Same Tree** | Tree/Recursion | `O(n)` time
+
   - Topics: Tree comparison, Recursion
   - Variants: Symmetric tree, invert tree
 
 - [ ] **#101 Symmetric Tree** | Recursion | `O(n)` time
+
   - Topics: Tree, Recursion
   - Approach: Check mirror condition
 
 - [ ] **#104 Maximum Depth of Binary Tree** | Recursion/BFS | `O(n)` time
+
   - Topics: Tree, DFS, BFS
   - Variants: Minimum depth, height
 
 - [ ] **#108 Convert Sorted Array to BST** | Recursion | `O(n)` time
+
   - Topics: Tree, Array, Recursion
   - Key: Use middle element as root
 
 - [ ] **#118 Pascal's Triangle** | Array generation | `O(n²)` time
+
   - Topics: Array, Math, DP
   - Pattern recognition
 
 - [ ] **#121 Best Time to Buy and Sell Stock** | Array scan | `O(n)` time
+
   - Topics: Array, DP, Tracking min
   - Important: Single transaction
 
 - [ ] **#125 Valid Palindrome** | Two Pointers | `O(n)` time
+
   - Topics: String, Two Pointers
   - Key: Skip non-alphanumeric, case insensitive
 
 - [ ] **#141 Linked List Cycle** | Two Pointers | `O(n)` time
+
   - Topics: Linked List, Two Pointers (Floyd's algorithm)
   - Important: Fast and slow pointer
 
 - [ ] **#155 Min Stack** | Stack design | `O(1)` time
+
   - Topics: Stack, Design
   - Approach: Maintain separate min stack
 
 - [ ] **#160 Intersection of Two Linked Lists** | Two Pointers | `O(n+m)` time
+
   - Topics: Linked List, Two Pointers
   - Key insight: Use difference in lengths
 
 - [ ] **#169 Majority Element** | HashMap/Sorting | `O(n)` time
+
   - Topics: Array, Voting algorithm
   - Approaches: HashMap, sort, Boyer-Moore
 
 - [ ] **#172 Factorial Trailing Zeroes** | Math | `O(log n)` time
+
   - Topics: Math, Number theory
   - Key: Count factors of 5
 
 - [ ] **#189 Rotate Array** | Array rotation | `O(n)` time
+
   - Topics: Array, In-place rotation
   - Approaches: Reverse, extra array, rotation algorithm
 
 - [ ] **#202 Happy Number** | HashMap | `O(1)` time
+
   - Topics: Hash Map, Cycle detection
   - Approach: Detect cycle with set
 
 - [ ] **#205 Isomorphic Strings** | HashMap | `O(n)` time
+
   - Topics: Hash Map, String mapping
   - Important: Bidirectional mapping
 
 - [ ] **#217 Contains Duplicate** | HashMap/Set | `O(n)` time
+
   - Topics: Hash Map, Array
   - Variants: #219, #220
 
 - [ ] **#219 Contains Duplicate II** | Sliding Window | `O(n)` time
+
   - Topics: Sliding Window, Hash Set
   - Key: Window size constraint
 
 - [ ] **#242 Valid Anagram** | Sorting/HashMap | `O(n log n)` time
+
   - Topics: String, Sorting, Hash Map
   - Approaches: Sort, frequency map
 
 - [ ] **#257 Binary Tree Paths** | DFS/Recursion | `O(n)` time
+
   - Topics: Tree, DFS, String building
   - Approach: Build path string recursively
 
@@ -815,322 +848,402 @@ public static List<Integer> getDiagonal(int[][] matrix) {
 ### 🟡 Medium Problems (Strengthen Foundations)
 
 - [ ] **#2 Add Two Numbers** | Linked List simulation | `O(max(m,n))` time
+
   - Topics: Linked List, Math
   - Key: Handle carry
 
 - [ ] **#3 Longest Substring Without Repeating Characters** | Sliding Window | `O(n)` time
+
   - Topics: Sliding Window, Hash Map
   - Important: Character index tracking
 
 - [ ] **#5 Longest Palindromic Substring** | DP/Expansion | `O(n²)` time
+
   - Topics: String, DP, Two Pointers
   - Approaches: DP, center expansion
 
 - [ ] **#6 Zigzag Conversion** | String manipulation | `O(n)` time
+
   - Topics: String, Matrix pattern
   - Key: Track row direction
 
 - [ ] **#8 String to Integer (atoi)** | String parsing | `O(n)` time
+
   - Topics: String, Parsing, Edge cases
   - Watch for: Overflow, leading spaces, signs
 
 - [ ] **#11 Container With Most Water** | Two Pointers | `O(n)` time
+
   - Topics: Two Pointers, Array
   - Key: Move pointer with smaller height
 
 - [ ] **#15 3Sum** | Two Pointers + Sorting | `O(n²)` time
+
   - Topics: Array, Two Pointers, Sorting
   - Important: Avoid duplicates
 
 - [ ] **#16 3Sum Closest** | Two Pointers | `O(n²)` time
+
   - Topics: Two Pointers, Sorting
   - Variant of #15
 
 - [ ] **#18 4Sum** | Two Pointers | `O(n³)` time
+
   - Topics: Nested loops, Two Pointers
   - Generalization of #15
 
 - [ ] **#19 Remove Nth Node From End of List** | Linked List | `O(n)` time
+
   - Topics: Linked List, Two Pointers
   - Key: Dummy node for head removal
 
 - [ ] **#24 Swap Nodes in Pairs** | Linked List | `O(n)` time
+
   - Topics: Linked List, Recursion
   - Approaches: Iterative, recursive
 
 - [ ] **#33 Search in Rotated Sorted Array** | Binary Search | `O(log n)` time
+
   - Topics: Binary Search, Array
   - Key: Identify which half is sorted
 
 - [ ] **#34 Find First and Last Position** | Binary Search | `O(log n)` time
+
   - Topics: Binary Search, Array
   - Approach: Two binary searches
 
 - [ ] **#39 Combination Sum** | Backtracking | `O(2^n)` time
+
   - Topics: Backtracking, Array
   - Key: Reuse elements allowed
 
 - [ ] **#40 Combination Sum II** | Backtracking | `O(2^n)` time
+
   - Topics: Backtracking, Sorting, Skip duplicates
   - Different from #39: Each element used once
 
 - [ ] **#42 Trapping Rain Water** | Two Pointers/DP | `O(n)` time
+
   - Topics: Array, Two Pointers, DP
   - Key insight: min(left_max, right_max) - height
 
 - [ ] **#46 Permutations** | Backtracking | `O(n!)` time
+
   - Topics: Backtracking, Array
   - Approach: Choose element, recurse, backtrack
 
 - [ ] **#47 Permutations II** | Backtracking | `O(n!)` time
+
   - Topics: Backtracking, Duplicates
   - Key: Skip duplicate elements
 
 - [ ] **#48 Rotate Image** | Matrix rotation | `O(n²)` time
+
   - Topics: Matrix, In-place rotation
   - Approach: Transpose + reverse
 
 - [ ] **#49 Group Anagrams** | HashMap | `O(n * k log k)` time
+
   - Topics: Hash Map, Sorting, String
   - Key: Sort characters as key
 
 - [ ] **#50 Pow(x, n)** | Binary exponentiation | `O(log n)` time
+
   - Topics: Math, Recursion, Bit manipulation
   - Watch for: Integer overflow, negative exponent
 
 - [ ] **#54 Spiral Matrix** | Matrix traversal | `O(m*n)` time
+
   - Topics: Matrix, Traversal
   - Approach: Shrink boundaries
 
 - [ ] **#55 Jump Game** | Greedy/DP | `O(n)` time
+
   - Topics: Greedy, Array, DP
   - Key: Track maximum reachable index
 
 - [ ] **#56 Merge Intervals** | Sorting | `O(n log n)` time
+
   - Topics: Array, Sorting, Interval merging
   - Approach: Sort by start, then merge overlapping
 
 - [ ] **#59 Spiral Matrix II** | Matrix generation | `O(n²)` time
+
   - Topics: Matrix, Spiral pattern
   - Similar to #54 but generating
 
 - [ ] **#61 Rotate List** | Linked List | `O(n)` time
+
   - Topics: Linked List, Array concepts
   - Key: Find rotation point
 
 - [ ] **#62 Unique Paths** | DP | `O(m*n)` time
+
   - Topics: DP, Combinatorics
   - Approach: Build DP table
 
 - [ ] **#63 Unique Paths II** | DP | `O(m*n)` time
+
   - Topics: DP, Obstacles
   - Extension of #62
 
 - [ ] **#64 Minimum Path Sum** | DP | `O(m*n)` time
+
   - Topics: DP, Array
   - Similar to #62 with weights
 
 - [ ] **#71 Simplify Path** | Stack/String | `O(n)` time
+
   - Topics: Stack, String parsing
   - Key: Handle ., .., and /
 
 - [ ] **#73 Set Matrix Zeroes** | In-place modification | `O(m*n)` time
+
   - Topics: Matrix, In-place, Space optimization
   - Approach: Use first row/column as markers
 
 - [ ] **#74 Search a 2D Matrix** | Binary Search | `O(log(m*n))` time
+
   - Topics: Matrix, Binary Search
   - Key: Treat as sorted 1D array
 
 - [ ] **#75 Sort Colors** | Array sorting | `O(n)` time
+
   - Topics: Array, Two Pointers, Dutch National Flag
   - Constraint: Single pass required
 
 - [ ] **#76 Minimum Window Substring** | Sliding Window | `O(n)` time
+
   - Topics: Sliding Window, Hash Map
   - Hard but important pattern
 
 - [ ] **#77 Combinations** | Backtracking | `O(2^n)` time
+
   - Topics: Backtracking, Array
   - Key: Generate all k-combinations
 
 - [ ] **#78 Subsets** | Backtracking | `O(2^n)` time
+
   - Topics: Backtracking, Array
   - Approach: Include/exclude each element
 
 - [ ] **#79 Word Search** | DFS/Backtracking | `O(n*m*4^L)` time
+
   - Topics: Matrix, DFS, Backtracking
   - Key: Check 4 directions, mark visited
 
 - [ ] **#80 Remove Duplicates II** | Two Pointers | `O(n)` time
+
   - Topics: Two Pointers, Array
   - Variant of #26 with frequency limit
 
 - [ ] **#82 Remove Duplicates from Sorted List II** | Linked List | `O(n)` time
+
   - Topics: Linked List, Dummy node
   - Key: Remove nodes with duplicates
 
 - [ ] **#83 Remove Duplicates from Sorted List** | Linked List | `O(n)` time
+
   - Topics: Linked List, Simple traversal
   - Easier variant
 
 - [ ] **#86 Partition List** | Linked List | `O(n)` time
+
   - Topics: Linked List, Partition
   - Approach: Create two lists, merge
 
 - [ ] **#90 Subsets II** | Backtracking | `O(2^n)` time
+
   - Topics: Backtracking, Duplicates
   - Key: Skip duplicate elements
 
 - [ ] **#92 Reverse Linked List II** | Linked List | `O(n)` time
+
   - Topics: Linked List, Pointer manipulation
   - Key: Reverse sublist in place
 
 - [ ] **#102 Binary Tree Level Order Traversal** | BFS | `O(n)` time
+
   - Topics: Tree, BFS, Queue
   - Approach: Process level by level
 
 - [ ] **#103 Binary Tree Zigzag Level Order** | BFS | `O(n)` time
+
   - Topics: Tree, BFS, Direction alternation
   - Extension of #102
 
 - [ ] **#105 Construct Binary Tree from Preorder/Inorder** | Recursion | `O(n)` time
+
   - Topics: Tree, Recursion, Array
   - Key: Use first element as root
 
 - [ ] **#106 Construct Binary Tree from Inorder/Postorder** | Recursion | `O(n)` time
+
   - Topics: Tree, Recursion
   - Similar to #105
 
 - [ ] **#113 Path Sum II** | DFS | `O(n)` time
+
   - Topics: Tree, DFS, Path building
   - Key: Build path during traversal
 
 - [ ] **#114 Flatten Binary Tree to Linked List** | DFS | `O(n)` time
+
   - Topics: Tree, DFS, In-place modification
   - Approach: Process right subtree first
 
 - [ ] **#130 Surrounded Regions** | DFS/BFS | `O(m*n)` time
+
   - Topics: Matrix, DFS, Connected components
   - Key: Mark from boundaries
 
 - [ ] **#138 Copy List with Random Pointer** | Hash Map | `O(n)` time
+
   - Topics: Linked List, Hash Map
   - Key: Two-pass approach
 
 - [ ] **#143 Reorder List** | Linked List | `O(n)` time
+
   - Topics: Linked List, Two Pointers
   - Approach: Reverse second half, merge
 
 - [ ] **#144 Binary Tree Preorder Traversal** | Tree traversal | `O(n)` time
+
   - Topics: Tree, Stack, Recursion
   - Approaches: Recursive, iterative
 
 - [ ] **#145 Binary Tree Postorder Traversal** | Tree traversal | `O(n)` time
+
   - Topics: Tree, Stack, Recursion
   - Approaches: Recursive, iterative
 
 - [ ] **#146 LRU Cache** | Design | `O(1)` time
+
   - Topics: Hash Map, Doubly Linked List, Design
   - Key: Combination data structure
 
 - [ ] **#148 Sort List** | Linked List sorting | `O(n log n)` time
+
   - Topics: Linked List, Merge sort
   - Approach: Merge sort on linked list
 
 - [ ] **#150 Evaluate Reverse Polish Notation** | Stack | `O(n)` time
+
   - Topics: Stack, String parsing
   - Key: Push operands, evaluate operators
 
 - [ ] **#151 Reverse Words in a String** | String manipulation | `O(n)` time
+
   - Topics: String, Array, Two Pointers
   - Watch for: Multiple spaces
 
 - [ ] **#152 Maximum Product Subarray** | DP | `O(n)` time
+
   - Topics: DP, Array
   - Key: Track both max and min
 
 - [ ] **#153 Find Minimum in Rotated Sorted Array** | Binary Search | `O(log n)` time
+
   - Topics: Binary Search, Array
   - Key: Identify which side has rotation
 
 - [ ] **#162 Find Peak Element** | Binary Search | `O(log n)` time
+
   - Topics: Binary Search, Array
   - Approach: Move towards larger neighbor
 
 - [ ] **#167 Two Sum II - Input Array Sorted** | Two Pointers | `O(n)` time
+
   - Topics: Two Pointers, Array
   - Key: Use sorted property
 
 - [ ] **#173 Binary Search Tree Iterator** | Design | `O(1)` amortized time
+
   - Topics: Tree, Iterator, Stack
   - Approach: In-order traversal
 
 - [ ] **#189 Rotate Array** | In-place rotation | `O(n)` time
+
   - Topics: Array, Rotation algorithm
   - Approaches: Reverse, reverse 3 times
 
 - [ ] **#198 House Robber** | DP | `O(n)` time
+
   - Topics: DP, Array
   - Key: Can't rob adjacent houses
 
 - [ ] **#199 Binary Tree Right Side View** | DFS/BFS | `O(n)` time
+
   - Topics: Tree, DFS, BFS
   - Approach: Track rightmost at each level
 
 - [ ] **#200 Number of Islands** | DFS/BFS | `O(m*n)` time
+
   - Topics: Matrix, DFS, Connected components
   - Key: Mark visited cells
 
 - [ ] **#206 Reverse Linked List** | Linked List | `O(n)` time
+
   - Topics: Linked List, Pointer manipulation
   - Approaches: Iterative, recursive
 
 - [ ] **#207 Course Schedule** | Topological Sort | `O(V+E)` time
+
   - Topics: Graph, Topological sort, Cycle detection
   - Key: Detect cycle in directed graph
 
 - [ ] **#209 Minimum Size Subarray Sum** | Sliding Window | `O(n)` time
+
   - Topics: Sliding Window, Array
   - Key: Two pointer technique
 
 - [ ] **#210 Course Schedule II** | Topological Sort | `O(V+E)` time
+
   - Topics: Graph, Topological sort
   - Extension of #207
 
 - [ ] **#213 House Robber II** | DP | `O(n)` time
+
   - Topics: DP, Array, Circular
   - Key: Split into two cases
 
 - [ ] **#215 Kth Largest Element** | Heap/Quickselect | `O(n log k)` time
+
   - Topics: Heap, Array, Quickselect
   - Approaches: Min heap, quickselect
 
 - [ ] **#221 Maximal Square** | DP | `O(m*n)` time
+
   - Topics: DP, Matrix
   - Key: DP state depends on three neighbors
 
 - [ ] **#238 Product of Array Except Self** | Prefix/Suffix | `O(n)` time
+
   - Topics: Array, Prefix sum, Two-pass
   - Constraint: Cannot use division
 
 - [ ] **#239 Sliding Window Maximum** | Deque | `O(n)` time
+
   - Topics: Sliding Window, Deque, Array
   - Key: Maintain decreasing deque
 
 - [ ] **#240 Search a 2D Matrix II** | Binary Search | `O(m+n)` time
+
   - Topics: Matrix, Binary Search
   - Approach: Start from corner
 
 - [ ] **#289 Game of Life** | In-place modification | `O(m*n)` time
+
   - Topics: Matrix, In-place, State encoding
   - Key: Encode old and new state
 
 - [ ] **#322 Coin Change** | DP | `O(n*amount)` time
+
   - Topics: DP, Array
   - Key: Minimum coins for amount
 
 - [ ] **#347 Top K Frequent Elements** | Heap/Quickselect | `O(n log k)` time
+
   - Topics: Heap, Hash Map, Array
   - Key: Use min heap of size k
 
@@ -1139,102 +1252,127 @@ public static List<Integer> getDiagonal(int[][] matrix) {
 ### 🔴 Hard Problems (Advanced Mastery)
 
 - [ ] **#37 Sudoku Solver** | Backtracking | `O(9^(n*n))` time
+
   - Topics: Backtracking, Matrix
   - Approach: Try digits, validate, backtrack
 
 - [ ] **#41 First Missing Positive** | Array marking | `O(n)` time
+
   - Topics: Array, In-place marking
   - Key: Use array as hash
 
 - [ ] **#42 Trapping Rain Water** | Two Pointers | `O(n)` time
+
   - Topics: Array, Two Pointers, DP
   - Important: Classic hard problem
 
 - [ ] **#51 N-Queens** | Backtracking | `O(n!)` time
+
   - Topics: Backtracking, Array
   - Key: Check diagonal constraints
 
 - [ ] **#72 Edit Distance** | DP | `O(m*n)` time
+
   - Topics: DP, String, Levenshtein
   - Key: Three operations: insert, delete, replace
 
 - [ ] **#84 Largest Rectangle in Histogram** | Stack | `O(n)` time
+
   - Topics: Stack, Monotonic stack
   - Key: Maintain increasing stack
 
 - [ ] **#85 Maximal Rectangle** | DP | `O(m*n)` time
+
   - Topics: DP, Matrix, Histogram
   - Key: Convert to histogram problem
 
 - [ ] **#99 Recover Binary Search Tree** | Tree traversal | `O(n)` time
+
   - Topics: Tree, DFS, In-order traversal
   - Key: Find two swapped nodes
 
 - [ ] **#124 Binary Tree Maximum Path Sum** | DFS | `O(n)` time
+
   - Topics: Tree, DFS, Recursion
   - Key: Track both sum and max
 
 - [ ] **#132 Palindrome Partitioning II** | DP | `O(n²)` time
+
   - Topics: DP, String, Palindrome
   - Key: Minimum cuts needed
 
 - [ ] **#135 Candy** | Greedy | `O(n)` time
+
   - Topics: Array, Greedy
   - Key: Two passes for constraints
 
 - [ ] **#145 Binary Tree Postorder Traversal** | Tree traversal | `O(n)` time
+
   - Topics: Tree, Stack, Recursion
   - Morris traversal approach
 
 - [ ] **#154 Find Minimum in Rotated Sorted Array II** | Binary Search | `O(n)` worst
+
   - Topics: Binary Search, Duplicates
   - Challenge: Handle duplicates
 
 - [ ] **#214 Shortest Palindrome** | KMP/Hashing | `O(n)` time
+
   - Topics: String, KMP, Palindrome
   - Key: Avoid O(n²) with naive approach
 
 - [ ] **#224 Basic Calculator** | Stack/String parsing | `O(n)` time
+
   - Topics: Stack, String parsing
   - Key: Handle + - ( ) operators
 
 - [ ] **#227 Basic Calculator II** | Stack/String parsing | `O(n)` time
+
   - Topics: Stack, String parsing
-  - Key: Handle * / with precedence
+  - Key: Handle \* / with precedence
 
 - [ ] **#295 Find Median from Data Stream** | Heap design | `O(log n)` time
+
   - Topics: Heap, Design, Data structure
   - Key: Two heaps (max, min)
 
 - [ ] **#297 Serialize and Deserialize Binary Tree** | Tree traversal | `O(n)` time
+
   - Topics: Tree, Serialization, Recursion
   - Approaches: Preorder, level-order
 
 - [ ] **#301 Remove Invalid Parentheses** | BFS | `O(n * 2^n)` time
+
   - Topics: String, BFS, Validation
   - Key: Generate and validate
 
 - [ ] **#329 Longest Increasing Path in Matrix** | DP/DFS | `O(m*n)` time
+
   - Topics: DP, DFS, Matrix, Memoization
   - Key: Combine DFS with DP
 
 - [ ] **#330 Patching Array** | Greedy | `O(n log N)` time
+
   - Topics: Greedy, Array
   - Key: Track reachable range
 
 - [ ] **#335 Self Crossing** | Array logic | `O(n)` time
+
   - Topics: Array, Line crossing
   - Key: Check crossing patterns
 
 - [ ] **#352 Data Stream as Disjoint Intervals** | Data structure | `O(n)` time
+
   - Topics: Data structure, Intervals
   - Key: Merge intervals
 
 - [ ] **#354 Russian Doll Envelopes** | DP/Binary Search | `O(n log n)` time
+
   - Topics: DP, Binary search, 2D sorting
   - Key: Longest increasing subsequence
 
 - [ ] **#358 Rearrange String k Distance Apart** | Greedy/Heap | `O(n)` time
+
   - Topics: String, Heap, Greedy
   - Key: Use max heap with cooldown
 
@@ -1243,129 +1381,215 @@ public static List<Integer> getDiagonal(int[][] matrix) {
 ## Mastery Action Items
 
 ### Phase 1: Foundation (Week 1-2)
+
 **Goal: Solve all 25 Easy problems with confidence**
 
 - [ ] **Daily Checklist:**
+
   - [ ] Code 1 problem from scratch (no looking at hints for 30 min minimum)
+
   - [ ] Identify the pattern used
+
   - [ ] Optimize the solution (time/space)
+
   - [ ] Write it in your problem template notes
+
   - [ ] Trace through with 2-3 test cases
 
 - [ ] **Weekly Goals:**
+
   - [ ] Complete 3-4 easy problems per day
+
   - [ ] Achieve 95%+ success rate on easy problems
+
   - [ ] Complete in 10-15 minutes per problem
+
   - [ ] Understand all patterns used
+
   - [ ] Create notes for all problems
 
 - [ ] **Pattern Recognition:**
+
   - [ ] Understand when to use Hash Map
+
   - [ ] Master Two Pointers technique
+
   - [ ] Learn basic String operations
+
   - [ ] Understand Array traversal patterns
+
   - [ ] Practice sorting and searching
 
 - [ ] **Code Quality:**
+
   - [ ] Write clean, readable code
+
   - [ ] Add proper variable names
+
   - [ ] Include comments for complex logic
+
   - [ ] Verify edge cases before submission
+
   - [ ] Optimize after solving
 
 ### Phase 2: Intermediate (Week 3-5)
+
 **Goal: Solve all 62 Medium problems with 70%+ success on first try**
 
 - [ ] **Daily Checklist:**
+
   - [ ] Code 1 medium problem from scratch
+
   - [ ] Don't look at solution for 45+ minutes
+
   - [ ] Try multiple approaches
+
   - [ ] Compare time/space complexity
+
   - [ ] Document all approaches in notes
+
   - [ ] Trace through complex test cases
 
 - [ ] **Weekly Goals:**
+
   - [ ] Complete 2-3 medium problems per day
+
   - [ ] Achieve 70%+ success rate on medium problems
+
   - [ ] Complete in 25-35 minutes per problem
+
   - [ ] Understand at least 2 different approaches per problem
+
   - [ ] Identify weaknesses in approach
 
 - [ ] **Pattern Recognition:**
+
   - [ ] Master Sliding Window technique
+
   - [ ] Understand Binary Search variations
+
   - [ ] Learn DFS/BFS for trees and graphs
+
   - [ ] Practice Dynamic Programming basics
+
   - [ ] Understand backtracking approach
 
 - [ ] **Optimization Practice:**
+
   - [ ] Always find O(n log n) solution if possible
+
   - [ ] Try to optimize space usage
+
   - [ ] Recognize when to use in-place modifications
+
   - [ ] Practice two-pass approaches
+
   - [ ] Learn to trade space for time wisely
 
 ### Phase 3: Advanced (Week 6-7)
+
 **Goal: Solve all 20 Hard problems and solidify weak areas**
 
 - [ ] **Daily Checklist:**
+
   - [ ] Solve 1 hard problem OR revisit 2-3 weak medium problems
+
   - [ ] Don't give up in first 60 minutes
+
   - [ ] Read solution only after honest attempt
+
   - [ ] Understand the key insight/aha moment
+
   - [ ] Rewrite solution from scratch after reading
+
   - [ ] Practice explaining approach out loud
 
 - [ ] **Weekly Goals:**
+
   - [ ] Complete 1-2 hard problems per day
+
   - [ ] Achieve 40%+ success rate on hard problems
+
   - [ ] Revisit all weak medium problems
+
   - [ ] Understand the unique insight in each hard problem
+
   - [ ] Practice under time pressure
 
 - [ ] **Advanced Techniques:**
+
   - [ ] Master complex data structures (Heap, segment trees)
+
   - [ ] Learn advanced DP techniques
+
   - [ ] Understand topological sorting
+
   - [ ] Practice monotonic stacks
+
   - [ ] Learn KMP/Z-algorithm for strings
 
 - [ ] **Interview Preparation:**
+
   - [ ] Practice explaining approach verbally
+
   - [ ] Handle edge cases confidently
+
   - [ ] Discuss trade-offs between solutions
+
   - [ ] Code efficiently without bugs
+
   - [ ] Optimize on-the-fly based on feedback
 
 ### Phase 4: Mastery (Week 8)
+
 **Goal: Can solve any Arrays/Strings problem in 20-30 minutes**
 
 - [ ] **Daily Checklist:**
+
   - [ ] Solve 2-3 random problems (mixed difficulty)
+
   - [ ] Complete in 20-30 minutes each
+
   - [ ] First-try success rate target: 80%+
+
   - [ ] Practice thinking about edge cases first
+
   - [ ] Practice clean code implementation
 
 - [ ] **Weekly Goals:**
+
   - [ ] Achieve 80%+ accuracy on medium problems
+
   - [ ] Achieve 50%+ accuracy on hard problems
-  - [ ] Solve any easy problem in <10 minutes
-  - [ ] Solve any medium problem in <25 minutes
+
+  - [ ] Solve any easy problem in &lt;10 minutes
+
+  - [ ] Solve any medium problem in &lt;25 minutes
+
   - [ ] Attempt hard problems confidently
 
 - [ ] **Mock Interviews:**
+
   - [ ] Do 2 mock interviews with Arrays/Strings problems
+
   - [ ] Record yourself or practice with a friend
+
   - [ ] Aim for 45 minutes per interview
+
   - [ ] Get feedback on communication
+
   - [ ] Identify remaining weak areas
 
 - [ ] **Final Review:**
+
   - [ ] Review all problem notes
+
   - [ ] Create final pattern reference guide
+
   - [ ] Solve your 5 weakest problems again
+
   - [ ] Practice explaining each pattern
+
   - [ ] Build confidence with easy problems
 
 ---
