@@ -683,7 +683,7 @@ public static List<Integer> getDiagonal(int[][] matrix) {
 
 ### 🟢 Easy Problems (Master First)
 
-- [ ] **#1 Two Sum** | HashMap/Brute Force | `O(n)` time
+- [x] **#1 Two Sum** | HashMap/Brute Force | `O(n)` time
 
   - Topics: Hash Map, Two Pointers
   - Variants: Sorted array, return indices
