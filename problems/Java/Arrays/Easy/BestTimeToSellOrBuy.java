@@ -3,7 +3,7 @@ package problems.Java.Arrays;
 public class BestTimeToSellOrBuy {
 
     public static int maxProfit(int[] stocks) {
-        int currentSum = 0;
+        int currentSum = Integer.MAX_VALUE;
         int maxSum = 0;
 
         for (int i : stocks) {
