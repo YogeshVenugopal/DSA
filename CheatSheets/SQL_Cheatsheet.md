@@ -5,6 +5,7 @@ A comprehensive guide to SQL queries, from basic operations to advanced techniqu
 ---
 
 ## Table of Contents
+
 1. [Basics](#basics)
 2. [SELECT & Filtering](#select--filtering)
 3. [Joins](#joins)
@@ -19,12 +20,14 @@ A comprehensive guide to SQL queries, from basic operations to advanced techniqu
 ## Basics
 
 ### Creating a Database
+
 ```sql
 CREATE DATABASE database_name;
 USE database_name;
 ```
 
 ### Creating a Table
+
 ```sql
 CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -36,6 +39,7 @@ CREATE TABLE users (
 ```
 
 ### Data Types
+
 ```
 INT             - Integer values
 VARCHAR(n)      - Variable-length string (up to n characters)
@@ -49,6 +53,7 @@ FLOAT           - Floating-point numbers
 ```
 
 ### Inserting Data
+
 ```sql
 -- Single row
 INSERT INTO users (name, email, age) 
@@ -66,6 +71,7 @@ VALUES
 ## SELECT & Filtering
 
 ### Basic SELECT
+
 ```sql
 -- Select all columns
 SELECT * FROM users;
@@ -78,6 +84,7 @@ SELECT name AS 'Full Name', email AS 'Email Address' FROM users;
 ```
 
 ### WHERE Clause (Filtering)
+
 ```sql
 -- Equals
 SELECT * FROM users WHERE age = 25;
@@ -112,6 +119,7 @@ SELECT * FROM users WHERE NOT (age BETWEEN 25 AND 35);
 ```
 
 ### ORDER BY (Sorting)
+
 ```sql
 -- Ascending (default)
 SELECT * FROM users ORDER BY age ASC;
@@ -125,6 +133,7 @@ SELECT * FROM users ORDER BY age DESC, name ASC;
 ```
 
 ### LIMIT & OFFSET
+
 ```sql
 -- Get first 10 rows
 SELECT * FROM users LIMIT 10;
@@ -137,6 +146,7 @@ SELECT * FROM users LIMIT 10, 10;
 ```
 
 ### DISTINCT
+
 ```sql
 -- Get unique values
 SELECT DISTINCT age FROM users;
@@ -148,6 +158,7 @@ SELECT DISTINCT age, country FROM users;
 ## Joins
 
 ### INNER JOIN
+
 ```sql
 SELECT u.name, o.order_id, o.amount
 FROM users u
@@ -155,6 +166,7 @@ INNER JOIN orders o ON u.id = o.user_id;
 ```
 
 ### LEFT JOIN (LEFT OUTER JOIN)
+
 ```sql
 -- Includes all rows from left table, matching rows from right table
 SELECT u.name, o.order_id, o.amount
@@ -163,6 +175,7 @@ LEFT JOIN orders o ON u.id = o.user_id;
 ```
 
 ### RIGHT JOIN (RIGHT OUTER JOIN)
+
 ```sql
 -- Includes all rows from right table, matching rows from left table
 SELECT u.name, o.order_id, o.amount
@@ -171,6 +184,7 @@ RIGHT JOIN orders o ON u.id = o.user_id;
 ```
 
 ### FULL OUTER JOIN
+
 ```sql
 -- Includes all rows from both tables
 SELECT u.name, o.order_id, o.amount
@@ -179,6 +193,7 @@ FULL OUTER JOIN orders o ON u.id = o.user_id;
 ```
 
 ### CROSS JOIN
+
 ```sql
 -- Cartesian product - every row from table1 with every row from table2
 SELECT u.name, p.product_name
@@ -187,6 +202,7 @@ CROSS JOIN products p;
 ```
 
 ### Self Join
+
 ```sql
 -- Join table with itself
 SELECT e1.name AS employee, e2.name AS manager
@@ -195,6 +211,7 @@ JOIN employees e2 ON e1.manager_id = e2.id;
 ```
 
 ### Multiple Joins
+
 ```sql
 SELECT u.name, o.order_id, p.product_name
 FROM users u
@@ -207,6 +224,7 @@ JOIN products p ON o.product_id = p.id;
 ## Aggregation & Grouping
 
 ### Aggregate Functions
+
 ```sql
 -- COUNT - number of rows
 SELECT COUNT(*) FROM users;
@@ -229,6 +247,7 @@ SELECT GROUP_CONCAT(name) FROM users;
 ```
 
 ### GROUP BY
+
 ```sql
 -- Group by single column
 SELECT age, COUNT(*) 
@@ -247,6 +266,7 @@ GROUP BY user_id;
 ```
 
 ### HAVING (Filter grouped results)
+
 ```sql
 -- Get ages with more than 5 users
 SELECT age, COUNT(*) as count
@@ -262,6 +282,7 @@ HAVING SUM(amount) > 1000;
 ```
 
 ### CASE (Conditional Logic)
+
 ```sql
 SELECT 
     name,
@@ -284,6 +305,7 @@ FROM orders;
 ## Subqueries & CTEs
 
 ### Subqueries in SELECT
+
 ```sql
 SELECT 
     name,
@@ -292,6 +314,7 @@ FROM users;
 ```
 
 ### Subqueries in WHERE
+
 ```sql
 -- Get users who placed orders
 SELECT * FROM users 
@@ -307,6 +330,7 @@ WHERE amount > (SELECT AVG(amount) FROM orders);
 ```
 
 ### Subqueries in FROM
+
 ```sql
 SELECT age_group, COUNT(*) as count
 FROM (
@@ -323,6 +347,7 @@ GROUP BY age_group;
 ```
 
 ### Common Table Expressions (CTE) - WITH Clause
+
 ```sql
 -- Single CTE
 WITH user_orders AS (
@@ -351,6 +376,7 @@ FROM monthly_sales;
 ```
 
 ### Recursive CTE
+
 ```sql
 -- Generate numbers 1 to 10
 WITH RECURSIVE numbers AS (
@@ -382,6 +408,7 @@ SELECT * FROM org_tree;
 ### Window Functions
 
 #### ROW_NUMBER, RANK, DENSE_RANK
+
 ```sql
 -- Row number (unique rank for each row)
 SELECT 
@@ -414,6 +441,7 @@ FROM employees;
 ```
 
 #### LAG & LEAD (Access previous/next rows)
+
 ```sql
 -- Get previous employee's salary
 SELECT 
@@ -433,6 +461,7 @@ GROUP BY DATE_TRUNC('month', order_date);
 ```
 
 #### FIRST_VALUE & LAST_VALUE
+
 ```sql
 -- Get first/last value in partition
 SELECT 
@@ -445,6 +474,7 @@ FROM employees;
 ```
 
 #### Running Totals & Aggregations
+
 ```sql
 -- Cumulative sum
 SELECT 
@@ -462,6 +492,7 @@ FROM daily_sales;
 ```
 
 ### UNION & UNION ALL
+
 ```sql
 -- UNION removes duplicates
 SELECT name, email FROM users
@@ -475,6 +506,7 @@ SELECT name, email FROM archived_users;
 ```
 
 ### INTERSECT & EXCEPT
+
 ```sql
 -- INTERSECT - common records
 SELECT id FROM users
@@ -488,6 +520,7 @@ SELECT user_id FROM orders;
 ```
 
 ### EXISTS
+
 ```sql
 -- Check if subquery returns any rows
 SELECT * FROM users u
@@ -503,6 +536,7 @@ WHERE NOT EXISTS (
 ```
 
 ### PIVOT / Cross-tabulation
+
 ```sql
 -- MySQL example
 SELECT 
@@ -515,6 +549,7 @@ GROUP BY month;
 ```
 
 ### Complex Joins with Conditions
+
 ```sql
 -- Join with multiple conditions
 SELECT u.name, o.order_id
@@ -533,6 +568,7 @@ WHERE o.id IS NULL;
 ## Database Management
 
 ### ALTER TABLE
+
 ```sql
 -- Add column
 ALTER TABLE users ADD COLUMN phone VARCHAR(20);
@@ -557,6 +593,7 @@ ALTER TABLE users RENAME TO app_users;
 ```
 
 ### UPDATE
+
 ```sql
 -- Update specific rows
 UPDATE users SET age = 30 WHERE id = 1;
@@ -575,6 +612,7 @@ UPDATE users SET updated_at = NOW();
 ```
 
 ### DELETE
+
 ```sql
 -- Delete specific rows
 DELETE FROM users WHERE age < 18;
@@ -593,6 +631,7 @@ DROP TABLE users;
 ```
 
 ### Indexes
+
 ```sql
 -- Create index
 CREATE INDEX idx_email ON users(email);
@@ -611,6 +650,7 @@ SHOW INDEX FROM users;
 ```
 
 ### Views
+
 ```sql
 -- Create view
 CREATE VIEW user_order_summary AS
@@ -633,12 +673,14 @@ DROP VIEW user_order_summary;
 ### Query Optimization
 
 #### Use EXPLAIN to analyze queries
+
 ```sql
 EXPLAIN SELECT * FROM users WHERE email = 'john@example.com';
 EXPLAIN ANALYZE SELECT * FROM users WHERE email = 'john@example.com';
 ```
 
 #### Index Best Practices
+
 ```sql
 -- Index columns used in WHERE clauses
 CREATE INDEX idx_status ON orders(status);
@@ -654,6 +696,7 @@ CREATE INDEX idx_status_user ON orders(status, user_id);
 ```
 
 #### Avoid these patterns
+
 ```sql
 -- ❌ DON'T: Use functions on indexed columns
 SELECT * FROM users WHERE YEAR(created_at) = 2023;
@@ -685,6 +728,7 @@ SELECT * FROM users WHERE phone = '123456';
 ```
 
 ### Batch Operations
+
 ```sql
 -- Insert multiple rows at once (more efficient than individual inserts)
 INSERT INTO users (name, email, age) 
@@ -698,6 +742,7 @@ UPDATE users SET status = 'active' WHERE created_at < NOW() - INTERVAL 30 DAY LI
 ```
 
 ### Query Optimization Examples
+
 ```sql
 -- ❌ Inefficient: Multiple subqueries
 SELECT u.name, 
@@ -717,7 +762,7 @@ GROUP BY u.id, u.name;
 ## Quick Reference Cheat Sheet
 
 | Concept | Syntax | Purpose |
-|---------|--------|---------|
+| --- | --- | --- |
 | SELECT | `SELECT col FROM table` | Retrieve data |
 | WHERE | `WHERE condition` | Filter rows |
 | JOIN | `INNER/LEFT/RIGHT JOIN` | Combine tables |
@@ -741,6 +786,7 @@ GROUP BY u.id, u.name;
 ## Common SQL Functions
 
 ### String Functions
+
 ```sql
 UPPER(string)          -- Convert to uppercase
 LOWER(string)          -- Convert to lowercase
@@ -752,6 +798,7 @@ REPLACE(string, from, to) -- Replace text
 ```
 
 ### Numeric Functions
+
 ```sql
 ROUND(number, decimals) -- Round number
 CEIL(number)           -- Round up
@@ -763,6 +810,7 @@ MOD(a, b)              -- Modulo (remainder)
 ```
 
 ### Date Functions
+
 ```sql
 NOW() / CURRENT_TIMESTAMP -- Current date and time
 DATE(datetime)         -- Extract date
@@ -776,5 +824,4 @@ DATEDIFF(date1, date2) -- Difference in days
 
 ---
 
-**Last Updated:** 2024
-**Remember:** Practice these queries regularly to master SQL!
+**Last Updated:** 2024 **Remember:** Practice these queries regularly to master SQL!
